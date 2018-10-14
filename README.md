@@ -10,7 +10,7 @@ pip install opencv-python numpy matplotlib
 
 # Command
 ```
-qrparse.py <mode: xy | 01> <<filename> <size> [ignore]
+qrparse.py <mode: xy | 01> <filename> <size> [ignore]
 ```
 | Argument   | Type      |  Instruction                              |
 | :--------: | :-----:   | :---------------------------------------: |
