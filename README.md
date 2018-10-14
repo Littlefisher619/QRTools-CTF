@@ -25,5 +25,5 @@ We provide a hint.txt for you and you can test with it.
 qrparse.py xy hint.txt 280
 qrparse.py xy hint.txt 100 ignore
 qrparse.py 01 hint.txt 280
-qrparse.py xy hint.txt 100 ignore
+qrparse.py 01 hint.txt 100 ignore
 ```
