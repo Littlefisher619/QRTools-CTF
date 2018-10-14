@@ -20,6 +20,7 @@ qrparse.py <mode: xy | 01> <filename> <size> [ignore]
 | ignore     | String    | Ignore warnings then continue             |
 
 # Example
+We provide a hint.txt for you and you can test with it.
 ```
 qrparse.py xy hint.txt 280
 qrparse.py xy hint.txt 100 ignore
