@@ -1,5 +1,6 @@
-# QRParse
-Convert a file to QR Code by Python3
+# QRTools-CTF
+Convert a file to QR Code by Python3.
+Useful in CTF competitions.
 # Installation
 ```
 pip install opencv-python numpy matplotlib
