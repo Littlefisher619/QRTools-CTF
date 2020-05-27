@@ -1,10 +1,10 @@
 from qrtools import *
 
-split_count = 29 # 29*29
-thresold = 11
-origineImage = cv.imread('example.jpg')
 
 if __name__ == "__main__":
+    split_count = 29  # 29*29
+    thresold = 11
+    origineImage = cv.imread('example.jpg')
     img = thresholdimg(origineImage)
     img = cutimg(img)
 
@@ -26,7 +26,7 @@ if __name__ == "__main__":
                 exit(0)
         print(blacks)
 
-        for i in a:
+        for i in blacks:
             data.write(str(i))
         data.write('\r\n')
 
