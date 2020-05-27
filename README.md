@@ -6,12 +6,12 @@ Useful in CTF competitions.
 pip install opencv-python numpy matplotlib
 ```
 # Mode
-> * 01 Mode: parse a file including 2 kinds of character
-> * xy Mode: parse a file where every line has two numbers means a coordinate point.
+> * 01 Mode: convert a file including 2 kinds of character
+> * xy Mode: convert a file where every line has two numbers means a coordinate point.
 
 # Command
 ```
-qrparse.py <mode: xy | 01> <filename> <size> [ignore]
+qrtools.py <mode: xy | 01> <filename> <size> [ignore]
 ```
 | Argument   | Type      |  Instruction                              |
 | :--------: | :-----:   | :---------------------------------------: |
@@ -23,8 +23,8 @@ qrparse.py <mode: xy | 01> <filename> <size> [ignore]
 # Example
 We provide a hint.txt for you and you can test with it.
 ```
-qrparse.py xy hint.txt 280
-qrparse.py xy hint.txt 100 ignore
-qrparse.py 01 hint.txt 280
-qrparse.py 01 hint.txt 100 ignore
+qrtools.py xy hint.txt 280
+qrtools.py xy hint.txt 100 ignore
+qrtools.py 01 hint.txt 280
+qrtools.py 01 hint.txt 100 ignore
 ```
