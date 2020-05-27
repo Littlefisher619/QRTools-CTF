@@ -54,6 +54,7 @@ def valid(picsize, point):
 def thresholdimg(img):
     image = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
     retval, img = cv.threshold(image, 127, 255, cv.THRESH_BINARY)
+    return img
 
 # 计算二值化后的图片中的黑像素个数
 def countblack(img):
